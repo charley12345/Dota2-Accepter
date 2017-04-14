@@ -101,7 +101,7 @@ Gui, Add, Edit, vNewPosY x5 y80 w50 h20 , %PosY%
 Gui, Add, Text, x60 y80, Position Y*
 Gui, Add, Text, x5 y100, *Position in pixels where to click. Leave blank for default. Used for clicker method.
 
-Gui, Add, Text, x5 y140, Every 2 seconds produce:
+Gui, Add, Text, x5 y140, Every 0.30 seconds produce:
 Gui, Add, Radio, x5 y160 altsubmit vAcceptMethod Checked%AcceptMethod1%, Enter Press
 Gui, Add, Radio, x5 y180 altsubmit Checked%AcceptMethod2%, Mouse Click
 gui, Add, checkbox, Checked%RunatStart% vRunatStart x5 y210, Run tool at startup
